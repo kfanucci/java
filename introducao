@@ -1,0 +1,19 @@
+Plataforma JAVA
+
+caracteristicas: 
+- orientado a objeto
+- multiplataforma
+- muita bibliotecas
+- parece com c++
+
+JVM
+escreve um codigo (linguagem java) 
+executavel (bytecode)
+JVM java virtual machine "traduz" para o OS (linux, mac, win)
+
+Beneficios:
+- executar codigo independente do OS
+- sistemas: web, server-side, android e applets
+
+Java JDK = JRE + ferramentas devs
+JRE apenas para executar aplicação java = JVM + bibliotecas
