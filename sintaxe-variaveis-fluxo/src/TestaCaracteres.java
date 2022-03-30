@@ -12,8 +12,8 @@ public class TestaCaracteres {
 		String palavra = "alura cursos online de tecnologia";
 		System.out.println(palavra);
 		
-		palavra = palavra +  2020;
-		System.out.println(palavra);
+		palavra = palavra +   2020;
+		System.out.println( palavra);
 
 	}
 }
