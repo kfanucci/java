@@ -21,7 +21,7 @@ public class Gerente extends Funcionario { //extends faz herdar a classe Funcion
 	
 	
 	public double getBonus() {
-		return super.salario; //super sobe a hierarquia e busca na mae, reescrita
+		return super.getBonus() + super.getSalario() ; //super sobe a hierarquia e busca na mae, reescrita
 	} 
 	
 }	

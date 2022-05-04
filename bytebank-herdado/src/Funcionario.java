@@ -3,7 +3,7 @@ public class Funcionario {
 	 
 	private String nome;
 	private String cpf;
-	protected double salario; //protected privado porem publico para os filhos
+	private double salario; //protected privado porem publico para os filhos
 	
 	public Funcionario() {
 		
@@ -11,7 +11,7 @@ public class Funcionario {
 	
 	
 	public double getBonus() {
-		return this.salario * 0.1;
+		return this.salario * 0.05;
 	}
 	
 	
