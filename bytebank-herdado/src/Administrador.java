@@ -1,14 +1,15 @@
 
-public class Gerente extends Funcionario implements Autenticavel {  //extends faz herdar a classe Funcionario, assina contrato autenticavel
+public class Administrador extends Funcionario implements Autenticavel {
+
 	
 	private AutenticacaoUtil autenticador;
 	
+	@Override
 	public double getBonus() {
-		System.out.println("Chamando o metedo bonus do GERENTE");
-		return super.getSalario() ; //super sobe a hierarquia e busca na mae, reescrita
+		return 50;
 	}
-
-	public Gerente () {
+	
+	public Administrador () {
 		this.autenticador = new AutenticacaoUtil();
 	}
 		
@@ -24,3 +25,5 @@ public class Gerente extends Funcionario implements Autenticavel {  //extends fa
 	}
 	
 }	
+	
+

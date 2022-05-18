@@ -1,15 +1,9 @@
 
-public class Designer extends  Funcionario implements Autenticavel{
+public class Cliente implements Autenticavel {
 
 	private AutenticacaoUtil autenticador;
 	
-	public double getBonus() {
-		System.out.println("Metodo de bonificacao Designer");
-		return super.getSalario() + 200;
-	}
-	
-	
-	public Designer () {
+	public Cliente () {
 		this.autenticador = new AutenticacaoUtil();
 	}
 		
@@ -24,4 +18,5 @@ public class Designer extends  Funcionario implements Autenticavel{
 		return this.autenticador.autentica(senha);
 	}
 
-}	
+
+}

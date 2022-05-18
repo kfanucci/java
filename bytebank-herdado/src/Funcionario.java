@@ -1,5 +1,5 @@
 
-public class Funcionario {
+public abstract class Funcionario { //abstract torna  classe abstrata
 	 
 	private String nome;
 	private String cpf;
@@ -10,10 +10,7 @@ public class Funcionario {
 	}
 	
 	
-	public double getBonus() {
-		return this.salario * 0.05;
-	}
-	
+	public abstract double getBonus(); // metodo abstrato, n há implementação de metodos aqui  obriga os filhos a colocar metodo
 	
 	public String getNome() {
 		return nome;

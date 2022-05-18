@@ -1,5 +1,5 @@
 
-public class Conta {
+public abstract class Conta {
 
 	private double saldo;
 	private int agencia;
@@ -17,7 +17,7 @@ public class Conta {
 	    }
 
 	    public void deposita(double valor) {
-	        this.saldo = this.saldo + valor;
+	        this.saldo += valor;
 	    }
 
 	    public boolean saca(double valor) {
